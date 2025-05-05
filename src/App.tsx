@@ -10,6 +10,7 @@ import FilterSection from "./components/FilterSection";
 import ProductModal from "./components/ProductModal";
 import ConfirmationDialog from "./components/ConfirmationDialog";
 import CategoryChart from "./components/CategoryChart";
+import type { Product } from "./types/product";
 
 function App() {
   const dispatch = useAppDispatch();
